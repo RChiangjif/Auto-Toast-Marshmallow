@@ -1,0 +1,14 @@
+services:
+  rpi-camera:
+    build: .
+    container_name: rpi-camera-preview
+    privileged: true
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    devices:
+      - /dev:/dev
+    volumes:
+      - /run/udev:/run/udev:ro
+    environment:
+      - LIBCAMERA_LOG_LEVELS=*:ERROR
