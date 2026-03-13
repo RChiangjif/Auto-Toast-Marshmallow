@@ -1,5 +1,7 @@
 # 🔥 Auto-Toast Marshmallow
 
+這是一個由 YTP 少年圖靈計畫培育製作的專案
+
 自動烤棉花糖機器 - 使用 Raspberry Pi 5、舵機控制、YOLO 物體檢測和視覺熟度判定
 
 ## 🎯 專案概述
